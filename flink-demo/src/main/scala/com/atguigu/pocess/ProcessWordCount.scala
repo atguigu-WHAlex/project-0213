@@ -1,7 +1,7 @@
 package com.atguigu.pocess
 
 import org.apache.flink.api.common.state.{ValueState, ValueStateDescriptor}
-import org.apache.flink.api.java.tuple.Tuple
+import org.apache.flink.api.java.tuple.{Tuple, Tuple1}
 import org.apache.flink.streaming.api.functions.{KeyedProcessFunction, ProcessFunction}
 import org.apache.flink.streaming.api.scala._
 import org.apache.flink.util.Collector
